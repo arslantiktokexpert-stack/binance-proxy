@@ -1,0 +1,5 @@
+name = "binance-proxy-worker"
+compatibility_date = "2024-01-01"
+
+[[routers]]
+rule = "http.path.prefix(`/`)"
